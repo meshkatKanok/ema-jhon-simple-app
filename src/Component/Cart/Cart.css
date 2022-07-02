@@ -1,0 +1,5 @@
+<p>Items Orderd:{cart.length}</p>
+<p>Product Price:{formatNumber(total)}</p>
+<p>Shipping Cost:{shipping}</p>
+<p>Tax + Vat:{formatNumber(tax)}</p>
+<p>Total Price:{formatNumber(total+shipping+tax)}</p>
